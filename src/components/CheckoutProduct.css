@@ -1,0 +1,33 @@
+.checkoutProduct {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+}
+
+.checkoutProduct__image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__info {
+    padding: 20px;
+}
+
+.checkoutProduct__info > button {
+    background:rgb(254, 230, 176) linear-gradient(rgb(254, 230, 176), rgb(238, 186, 55)) repeat scroll 0% 0%; ;
+    border: 1px solid;
+    border-color:rgb(190, 149, 44) rgb(166, 130, 38) rgb(155, 121, 36); 
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.checkoutProduct__rating {
+    display: flex;
+}
+
+.checkoutProduct__title {
+    font-size: 17px;
+    font-weight: 700;
+}
